@@ -5,11 +5,17 @@ APP_TAGLINE = "Your Intelligent Cybersecurity Companion"
 
 VERSION = "1.0.0"
 
+
 DARK_THEME_CSS = """
 <style>
+
 .stApp {
     background-color: #0b1120;
     color: #ffffff;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #101b30;
 }
 
 .cyber-title {
@@ -22,7 +28,7 @@ DARK_THEME_CSS = """
     background-color: #162238;
     border: 1px solid #00bcd4;
     border-radius: 12px;
-    padding: 20px;
+    padding: 22px;
     min-height: 190px;
 }
 
@@ -31,7 +37,13 @@ DARK_THEME_CSS = """
 }
 
 .cyber-card p {
-    color: #ffffff;
+    color: #e2e8f0;
+    line-height: 1.6;
 }
+
+.stButton button {
+    border-radius: 8px;
+}
+
 </style>
 """
